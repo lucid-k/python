@@ -16,6 +16,22 @@ while True:
             if k.strip().lower() == "exit":
                 break
             print("..................")
+        elif num == 2:
+            inp = input("Enter the number to stop: ").strip()
+            if inp.isdigit():
+                ends = int(inp)
+                ends += 1
+                inp2 = input("enter the number of steps to skip: ").strip()
+                if inp2.isdigit():
+                    step=int(inp2)
+                    for i in range (0,ends,step):
+                        print(i,end=",")
+                    break
+                else:
+                    print("wrong input try again \nooooooooooooo")
+            else:
+                print("incorrect input\nooooooooooooooo")
+
         elif num == 4:
             print("Thanks come again")
             break
