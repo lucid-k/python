@@ -9,7 +9,8 @@
 6. Prompts user for their pronouns and prints a customized message.
 7. Runs continuously until user exits. Like 6.
 8. Counts down from a particular number(timer). Shows a series. Counts the multiples of a number within a range.
-9. Login and access control simulator. Username and password check. Role based access
+9. Login and access control simulator. Username and password check. Role based access.
+10. Game character status tracking. Uses bit flags to represent different conditions.
 
 ## Examples
 
