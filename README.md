@@ -11,6 +11,7 @@
 8. Counts down from a particular number(timer). Shows a series. Counts the multiples of a number within a range.
 9. Login and access control simulator. Username and password check. Role based access.
 10. Game character status tracking. Uses bit flags to represent different conditions.
+11. Linux-style file permissions with bit shifting.Stores permissions as an integer.Check, add, remove and print permissions.
 
 ## Examples
 
